@@ -30,7 +30,7 @@ pub mod repacketizer;
 pub mod softclip;
 
 pub use crate::error::{Error, ErrorCode, Result};
-pub use audiopus_sys as ffi;
+pub use opusic_sys as ffi;
 
 /// While `TryFrom` is nightly, we use our own
 /// implementation to stay stable.
